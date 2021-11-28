@@ -10,11 +10,17 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# Auto Traceroute:
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Auto Traceroute to isolate the MPLS black holes in the network for Verizon,
+When there are MPLS black holes in the network it is hard to isolate them. This feature is
+intended to find out the black holed node in an MPLS network by doing MPLS traceroute
+when MPLS OAM fails.
 
-## Header 2
+## SNMP BFD Traps for MPLS-OAM 
+
+SNMP BFD Traps for MPLS-OAM  for NGTV, When MPLS OAM related events occurs in the network SNMP traps are generated to
+notifies about the LSP event.
 
 > This is a blockquote following a header.
 >
